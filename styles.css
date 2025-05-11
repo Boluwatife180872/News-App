@@ -5,7 +5,7 @@ body {
   background-color: #f4f4f4;
 }
 header {
-  background-color: #333;
+  background-color: #023020;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -23,7 +23,7 @@ header {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
-  background-color: #333;
+  background-color: #023020;
   color: white;
   border: none;
 }
@@ -62,7 +62,7 @@ header {
 }
 .news-content a {
   text-decoration: none;
-  color: #333;
+  color: #023020;
   font-weight: bold;
 }
 .news-content a:hover {

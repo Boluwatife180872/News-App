@@ -56,8 +56,11 @@ searchBtn.addEventListener("click", () => {
   const query = searchInput.value.trim();
   if (query) {
     fetchNews(query);
-  } else {
+  } /* else {
     fetchNews();
+  } */
+  if (searchInput.value === "") {
+    newsContainer.innerHTML = "<p>Please enter a search term.</p>";
   }
 });
 
